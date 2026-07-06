@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CNC Designs Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+background:#070707;
+color:white;
+font-family:Segoe UI;
+}
+
+.gallery{
+padding:80px 5%;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.gallery-item{
+background:#111;
+padding:10px;
+border-radius:15px;
+border:1px solid #d4af37;
+}
+
+.gallery-item img,
+.gallery-item video{
+width:100%;
+border-radius:10px;
+}
+
+h1{
+text-align:center;
+padding:40px;
+color:#d4af37;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>CNC Design Projects</h1>
+
+<div class="gallery">
+
+<div class="gallery-item">
+<img src="images/cnc1.jpg">
+</div>
+
+<div class="gallery-item">
+<img src="images/cnc2.jpg">
+</div>
+
+<div class="gallery-item">
+<img src="images/cnc3.jpg">
+</div>
+
+<div class="gallery-item">
+<video controls>
+<source src="videos/cnc-video1.mp4" type="video/mp4">
+</video>
+</div>
+
+<div class="gallery-item">
+<video controls>
+<source src="videos/cnc-video2.mp4" type="video/mp4">
+</video>
+</div>
+
+</div>
+
+</body>
+</html>

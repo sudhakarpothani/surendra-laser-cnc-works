@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WPC Projects | Surendra Laser & CNC Works</title>
+<nav class="navbar">
+
+    <div class="logo">
+        <img src="logo.png" alt="Surendra Laser & CNC Works">
+    </div>
+
+    <ul>
+        <li>
+            <a href="videos-gallery.html" class="video-btn">
+                ▶ Videos
+            </a>
+        </li>
+    </ul>
+
+</nav>
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+   background:#bcbbff;
+    color:#fff;
+    font-family:Segoe UI,sans-serif;
+}
+.page-header{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+}
+
+.page-header h1{
+    color:#d4af37;
+    font-size:3rem;
+}
+
+.page-header p{
+    margin-top:15px;
+    color:#ccc;
+}
+
+.gallery{
+    padding:60px 5%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+}
+
+.gallery-item{
+    background:#111;
+    border:1px solid rgba(212,175,55,.4);
+    border-radius:18px;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.gallery-item:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 30px rgba(212,175,55,.2);
+}
+
+.gallery-item img,
+.gallery-item video{
+    width:100%;
+    display:block;
+}
+
+.project-info{
+    padding:15px;
+}
+
+.project-info h3{
+    color:#d4af37;
+    margin-bottom:10px;
+}
+
+.project-info p{
+    color:#ccc;
+    font-size:14px;
+}
+
+.cta{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#d4af37;
+    color:#000;
+    padding:15px 30px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.back-btn{
+    margin-top:20px;
+    display:inline-block;
+    color:#d4af37;
+    text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="page-header">
+    <h1>WPC Projects Gallery</h1>
+    <p>Premium WPC Sheet Cutting, Decorative Panels & Custom Designs</p>
+</section>
+
+<section class="gallery">
+
+    <div class="gallery-item">
+        <img src="images/wpc1.jpeg" alt="WPC Project 1">
+        <div class="project-info">
+            <h3>Decorative WPC Panel</h3>
+            <p>Custom CNC-cut decorative panel for interior applications.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="images/wpc2.jpeg" alt="WPC Project 2">
+        <div class="project-info">
+            <h3>Designer Wall Panel</h3>
+            <p>Precision CNC-cut WPC design with premium finishing.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="images/wpc3.jpeg" alt="WPC Project 3">
+        <div class="project-info">
+            <h3>Custom Partition Design</h3>
+            <p>Elegant WPC partition suitable for homes and offices.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <video controls>
+            <source src="videos/wpc-video1.mp4" type="video/mp4">
+        </video>
+        <div class="project-info">
+            <h3>WPC Cutting Process</h3>
+            <p>Live CNC cutting demonstration.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <video controls>
+            <source src="videos/wpc-video2.mp4" type="video/mp4">
+        </video>
+        <div class="project-info">
+            <h3>Completed WPC Project</h3>
+            <p>Finished installation showcase.</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="cta">
+
+    <h2 style="color:#d4af37;">Need Similar WPC Designs?</h2>
+    <p style="margin:15px 0 30px;">Contact us for custom WPC cutting and decorative solutions.</p>
+
+    <a href="https://wa.me/919052252253" class="btn">
+        WhatsApp Us
+    </a>
+
+    <br>
+
+    <a href="index.html" class="back-btn">
+        ← Back to Home
+    </a>
+
+</section>
+
+</body>
+</html>
